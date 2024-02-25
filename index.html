@@ -7,15 +7,39 @@
     <title>To-Do App</title>
   </head>
   <body>
-    <div>
-      <h4>To do list</h4>
-      <div class="container">
-        <input type="text" placeholder="Input a value" class="search"/>
+    <header>
+        <h3>To do list</h3>
+        <form class="container">
+          <input type="text" placeholder="Input a value" class="search"/>
+  
+          <button class="submit">Submit</button>
+        </form>
+    </header>
 
-        <button class="submit">Submit</button>
-      </div>
-      <div class="display"></div>
-    </div>
+    <main>
+
+      <section class="display">
+        <h4>Tasks</h4>
+
+        <div id="tasks">
+
+          <!-- <div class="task">
+
+            <div class="content">
+
+              <input type="text" class="text" value="my tasks" readonly>
+            </div>
+            
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+
+          </div> -->
+        </div>
+      </section>
+
+    </main>
 
     <script src="script.js"></script>
   </body>
